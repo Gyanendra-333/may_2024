@@ -6,3 +6,156 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/banner.jpg);
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+
+.info {
+    color: white;
+    font-size: 20px;
+    padding: 18px;
+}
+
+.info span {
+    margin: 0 10px;
+}
+
+.info span i {
+    margin: 0 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 80px; */
+    margin: 0 20px;
+}
+
+
+nav .logo {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+nav .logo i {
+    color: deeppink;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+nav .menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.menu a:last-child {
+    background-color: deeppink;
+    border-radius: 8px;
+}
+
+.menu a:hover {
+    background-color: deeppink;
+    border-radius: 8px;
+}
+
+.box {
+    background: aliceblue;
+    color: black;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+form {
+    width: 100%;
+}
+
+form input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+.box .btn {
+    background: deeppink;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.box .btn:hover {
+    color: deeppink;
+    background: white;
+    border: 1px solid deeppink;
+}
+
+.box span {
+    color: deeppink;
+    cursor: pointer;
+}
+
+.box p {
+    margin: 20px 0;
+}
+
+.htext {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    max-width: 600px;
+}
+
+.htext h1 {
+    font-size: 2em;
+}
+
+.htext h2 {
+    font-size: 4em;
+}
+
+.htext span {
+    color: deeppink;
+}
+
+.htext p {
+    margin: 10px 0;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+.htext a {
+    background-color: deeppink;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    font-size: 20px;
+    border: none;
+}
+
+.htext a:hover {
+    background-color: aliceblue;
+    color: black;
+
+}
