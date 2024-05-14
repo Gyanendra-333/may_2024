@@ -16,11 +16,11 @@
 <body>
 
     <div class="stop-watch">
-        <h1>00:00:00</h1>
+        <h1 id="displayTime">00:00:00</h1>
         <div class="buttons">
-            <img src="img/stop.png" alt="imgs">
-            <img src="img/Start.png" alt="imgs">
-            <img src="img/reset.png" alt="imgs">
+            <img src="img/stop.png" onclick="watchStop()" alt="imgs">
+            <img src="img/Start.png" onclick="watchStart()" alt="imgs">
+            <img src="img/reset.png" onclick="watchReset()" alt="imgs">
         </div>
     </div>
 
